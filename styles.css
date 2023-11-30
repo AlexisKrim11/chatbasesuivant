@@ -1,0 +1,69 @@
+body {
+	background-image: url(./assets/estudio-suivant.jpg);
+	padding: 0;
+	margin: 0;
+	box-sizing: content-box;
+	
+}
+
+.center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cuadrado{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 85%;
+	
+            background: linear-gradient(45deg, #3498db, #e74c3c); /* Fondo con gradiente */
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+			margin: 15px;
+
+}
+header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	}
+
+
+
+.color-white{
+	color: white;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chatbot{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.btn{
+
+}
+
+span{
+	font-weight: bold;
+}
+
+li{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.nav-link{
+	text-decoration: none;
+	list-style-type: none;
+}
