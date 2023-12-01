@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	margin: 0;
 	box-sizing: content-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	
 }
 
@@ -13,21 +14,6 @@ body {
 	align-items: center;
 }
 
-.cuadrado{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 85%;
-	
-            background: linear-gradient(45deg, #3498db, #e74c3c); /* Fondo con gradiente */
-            padding: 20px;
-            box-sizing: border-box;
-            border-radius: 10px; /* Bordes redondeados */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-			margin: 15px;
-
-}
 header {
 	display: flex;
 	flex-direction: column;
@@ -41,13 +27,17 @@ header {
 	color: white;
 	text-align: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	margin: 20px;
 }
 
 .chatbot{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 20px;
+	width: 50%;
+	margin: 15px;
 }
 
 .btn{
@@ -66,4 +56,9 @@ li{
 .nav-link{
 	text-decoration: none;
 	list-style-type: none;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
 }
