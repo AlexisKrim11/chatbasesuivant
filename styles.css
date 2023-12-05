@@ -21,7 +21,19 @@ header {
 
 	}
 
+main{
 
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+
+
+
+.margin{
+	margin: 8px;
+}
 
 .color-white{
 	color: white;
@@ -41,7 +53,14 @@ header {
 }
 
 .btn{
+	margin: 5px;
+	background-color: #023047;
+	border: black;
+}
 
+.btn:hover{
+	background-color: gray;
+	border: 1px solid white;
 }
 
 span{
